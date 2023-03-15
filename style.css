@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #001d3d;
+    font-family: Cabin, Gill Sans MT, Gill Sans, Trebuchet MS, sans‑serif;
+}
+
+.container  {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ffc300;
+    font-size: 72px;
+    margin-bottom: 50px;
+}
+
+button {
+    background: #ffc300;
+    color: #001d3d;
+    outline: none;
+    border: none;
+    padding: 20px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+button:hover {
+    background: #ffd60a;
+}
+
